@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Guestbook</title>
+
+    <style>
+      body{
+        background:#09090d;
+        color:#e0e0e0;
+        font-family:Verdana;
+      }
+
+      h1{
+        font-family:Impact;
+      }
+
+      .entry{
+        border:1px dashed #444;
+        padding:15px;
+        margin-top:15px;
+        background:#111118;
+      }
+
+      input, textarea{
+        width:100%;
+        background:#0f0f16;
+        color:#fff;
+        border:1px solid #444;
+        margin-bottom:10px;
+        padding:5px;
+        font-family:Verdana;
+      }
+
+      button{
+        background:#1a1a22;
+        color:white;
+        border:1px solid #555;
+        padding:6px 12px;
+        cursor:pointer;
+      }
+
+      button:hover{
+        background:#2a2a35;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>? Guestbook ?</h1>
+
+    <form id="form">
+      <input type="text" id="name" placeholder="your name">
+      <textarea id="msg" placeholder="your message"></textarea>
+      <button type="submit">sign guestbook</button>
+    </form>
+
+    <div id="entries"></div>
+
+    
+
+    <p><a href="index.html">? back home</a></p>
+  </body>
+</html>
